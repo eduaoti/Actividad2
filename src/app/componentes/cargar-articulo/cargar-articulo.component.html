@@ -1,0 +1,64 @@
+
+<div class="form-container">
+    <form class="card" action="/login">
+      <div>
+        <p class="titulo">Cargar Artículo</p>
+      </div>
+      <div>
+        <!--Tipo Subsistema-->
+        <div class="entrada mb-3">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <select class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <option value="">Tipo de Subsistema</option>
+              <option value="opcion1">Universidad Tecnológica</option>
+              <option value="opcion2">Universidad Polítecnica</option>
+              <option value="opcion3">Istituto Tecnológico</option>
+            </select>
+          </div>
+        <!--Titulo Articulo-->
+        <div class="entrada mb-3">
+            <i class="fa fa-book" aria-hidden="true"></i>          <input
+            type="text"
+            class="form-control"
+            id="exampleInputText1"
+            placeholder="Titulo Artículo"
+          />
+        </div>
+         <!--Autor-->
+         <div class="entrada mb-3">
+            <i class="fa fa-user" aria-hidden="true"></i>          <input
+            type="name"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="namelHelp"
+            placeholder="Autor"
+          />
+        </div>
+        <!--Resumen-->
+        <div class="entrada mb-3">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            <textarea class="form-control" 
+            id="exampleInputEmail1" 
+            aria-describedby="namelHelp"
+             placeholder="Brebe Resumen Del Artículo"></textarea>
+             
+          </div>
+        <!--Elegir Archivo-->
+        <div class="entrada mb-3">
+            <i class="fa fa-file" aria-hidden="true"></i>
+            <input type="file"
+            class="form-control" 
+            id="exampleInputFile"
+             aria-describedby="file1Help" 
+             />
+          </div>
+        <!---->
+        <button type="submit" class="btn btn-primary">Cargar Artículo</button>
+        <div id="emailHelp" class="form-text">
+          Al registrarse, aceptas nuestras Condiciones de uso y Política de
+          privacidad.
+          <br />
+          ¿No tienes una cuenta? <a class="registrate" href="/registro">Regístrate</a>
+        </div>
+      </div>
+    </form>
